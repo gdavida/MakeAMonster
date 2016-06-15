@@ -1,14 +1,14 @@
 .controls {
   display: block;
-  width: 150px;
-  height: 150px;
+  max-width: 120px;
+  max-height: 120px;
   position: relative;
-  border: 1px solid gray;
   background-size: contain;
   line-height: 150px;
   display: inline-block;
   float: left;
   cursor: pointer;
+  padding: 0 !important;
 }
 .controls p {
   height: 150px;
@@ -35,6 +35,8 @@
   min-height:00px;
   margin-top:25px;
   margin-bottom: 25px;
+  border: ridge #8B747A 10px
+
 }
 
 .monsterBodiesAndPartsSection {
@@ -48,15 +50,21 @@ img {
   height: 150px;
   width: 150px;
 }
-
+/*
 * {
   outline: 1px solid purple;
-}
+}*/
 
 
 .navbar-brand {
   font-family: 'Sigmar One', sans-serif;
   font-size: 30px;
+}
+
+li a{
+  font-family: 'Freckle Face', sans-serif;
+  color: black !important;
+  font-size: 20px;
 }
 
 
@@ -71,9 +79,8 @@ img {
 /* MONSTER BODIES BACKGROUND */
 .chooseBody {
   padding:0px !important;
-  outline: 2px solid pink;
 }
-
+/*
 .dropzone#bodyRed {
   background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/red.svg");
   background-size: 60%;
@@ -170,4 +177,4 @@ img {
   background-size: 60%;
   background-position: 50% 20%;
   background-repeat: no-repeat;
-}
+}*/

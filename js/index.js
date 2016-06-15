@@ -12,6 +12,166 @@ canvas.setHeight(windowHeight);
 // add image to canvas
 canvas.renderAll();
 // ADD EYES
+$('#bodyRed').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/red.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyOrange').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/orange.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyYellow').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/yellow.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyGreen').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/green.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyBlue').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/blue.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyBrown').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/brown.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+
+$('#bodyTeal').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/teal.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyIndigo').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/indigo.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyTan').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/tan.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyPurple').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/purple.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+
+$('#bodyRainbow').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/rainbow.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyBlack').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/black.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyCoral').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/coral.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#bodyPeach').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/peach.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+
+$('#bodyPink').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/pink.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+
+
+
+
+
+
+// ADD EYES
 $('#eyes1').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes1.svg', function(oImg) {
   oImg.scale(1.0).setFlipX(true);
