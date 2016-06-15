@@ -11,7 +11,7 @@ canvas.renderAll();
 // ADD EYES
 $('#bodyRed').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/red.svg', function(oImg) {
-    oImg.scale(3.5).setFlipX(true);
+    oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -21,7 +21,7 @@ $('#bodyRed').click(function() {
 
 $('#bodyOrange').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/orange.svg', function(oImg) {
-  oImg.scale(4).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -31,7 +31,7 @@ $('#bodyOrange').click(function() {
 
 $('#bodyYellow').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/yellow.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -41,7 +41,7 @@ $('#bodyYellow').click(function() {
 
 $('#bodyGreen').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/green.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -51,7 +51,7 @@ $('#bodyGreen').click(function() {
 
 $('#bodyBlue').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/blue.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -61,7 +61,7 @@ $('#bodyBlue').click(function() {
 
 $('#bodyBrown').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/brown.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -72,7 +72,7 @@ $('#bodyBrown').click(function() {
 
 $('#bodyTeal').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/teal.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -82,7 +82,7 @@ $('#bodyTeal').click(function() {
 
 $('#bodyIndigo').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/indigo.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -92,7 +92,7 @@ $('#bodyIndigo').click(function() {
 
 $('#bodyTan').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/tan.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -102,7 +102,7 @@ $('#bodyTan').click(function() {
 
 $('#bodyPurple').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/purple.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -113,7 +113,7 @@ $('#bodyPurple').click(function() {
 
 $('#bodyRainbow').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/rainbow.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -123,7 +123,7 @@ $('#bodyRainbow').click(function() {
 
 $('#bodyBlack').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/black.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -133,7 +133,7 @@ $('#bodyBlack').click(function() {
 
 $('#bodyCoral').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/coral.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -143,7 +143,7 @@ $('#bodyCoral').click(function() {
 
 $('#bodyPeach').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/peach.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -154,7 +154,7 @@ $('#bodyPeach').click(function() {
 
 $('#bodyPink').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/pink.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(3.5);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -171,7 +171,7 @@ $('#bodyPink').click(function() {
 // ADD EYES
 $('#eyes1').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes1.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -181,7 +181,7 @@ $('#eyes1').click(function() {
 
 $('#eyes2').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes2.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -191,7 +191,7 @@ $('#eyes2').click(function() {
 
 $('#eyes3').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes3.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -201,7 +201,7 @@ $('#eyes3').click(function() {
 
 $('#eyes4').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes4.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -211,7 +211,7 @@ $('#eyes4').click(function() {
 
 $('#eyes5').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes5.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -221,7 +221,7 @@ $('#eyes5').click(function() {
 
 $('#eyes6').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes6.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -232,7 +232,7 @@ $('#eyes6').click(function() {
 // ADD MOUTHS
 $('#mouth1').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth1.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -242,7 +242,7 @@ $('#mouth1').click(function() {
 
 $('#mouth2').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth2.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -252,7 +252,7 @@ $('#mouth2').click(function() {
 
 $('#mouth3').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth3.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -262,7 +262,7 @@ $('#mouth3').click(function() {
 
 $('#mouth4').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth4.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -272,7 +272,7 @@ $('#mouth4').click(function() {
 
 $('#mouth5').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth5.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -282,7 +282,7 @@ $('#mouth5').click(function() {
 
 $('#mouth6').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth6.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -296,7 +296,7 @@ $('#mouth6').click(function() {
 // ADD EXTRAS LIKE HORNS AND HATS
 $('#horn1').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/horns1.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -306,7 +306,7 @@ $('#horn1').click(function() {
 
 $('#horn2').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/horns2.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -316,7 +316,7 @@ $('#horn2').click(function() {
 
 $('#tiara').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/tiara.png', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -326,7 +326,7 @@ $('#tiara').click(function() {
 
 $('#pinkFancyHat').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/pinkFancyHat.png', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -336,7 +336,7 @@ $('#pinkFancyHat').click(function() {
 
 $('#pirateHat').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/pirateHat.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -346,7 +346,7 @@ $('#pirateHat').click(function() {
 
 $('#cowboyHat').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/cowboyHat.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -356,7 +356,7 @@ $('#cowboyHat').click(function() {
 
 $('#beard1').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/beard1.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -366,7 +366,7 @@ $('#beard1').click(function() {
 
 $('#beard2').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/beard2.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -374,8 +374,17 @@ $('#beard2').click(function() {
   })
 });
 $('#moustache1').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/moustache1.svg', function(oImg) {
+  oImg.scale(1.0);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+$('#moustache2').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/moustache2.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -384,7 +393,7 @@ $('#moustache1').click(function() {
 });
 $('#moustache3').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/moustache3.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -394,7 +403,7 @@ $('#moustache3').click(function() {
 
 $('#moustache4').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/moustache4.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(1.0);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -402,8 +411,75 @@ $('#moustache4').click(function() {
   })
 });
 
-
 // end - add extras
+
+
+
+
+// save file to new window
+
+    // function saveFile() {
+
+    // var trsvg = canvas.toSVG();
+    //   window.open(document.querySelector('canvas').toDataURL());
+    // }
+
+    //     document.querySelector('button').addEventListener('click', saveFile, false);
+
+
+
+
+
+
+
+
+
+
+    
+    function saveFile() {
+      window.open(document.querySelector('canvas').toDataURL());
+    }
+    //--------
+
+    function handleFileSelect(evt) {
+      //make canvas
+      var canvasWidth = 500;
+      var canvasHeight = 500;
+      var file = evt.target.files[0];
+      
+      //image upload
+      reader.onload = function(fileObject) {
+        var data = fileObject.target.result;
+        
+        // Create an image object
+        var image = new Image();
+        image.onload = function() {
+          
+          window.imageSrc = this;
+          redrawMeme(window.imageSrc, null, null);
+        }
+        
+        // Set image data to background image.
+        image.src = data;
+        console.log(fileObject.target.result);
+      };
+      reader.readAsDataURL(file)
+    }
+    // var file = document.querySelector("#file");
+    // file.onchange = handleFileSelect;
+
+        document.querySelector('button').addEventListener('click', saveFile, false);
+
+
+
+
+
+
+
+
+
+
+
 
 
 // // add bodies to bkgd of canvas
