@@ -6,15 +6,12 @@ canvas.setWidth(windowWidth);
 canvas.setHeight(windowHeight);
 
 
-
-
-
 // add image to canvas
 canvas.renderAll();
 // ADD EYES
 $('#bodyRed').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/red.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+    oImg.scale(3.5).setFlipX(true);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -24,7 +21,7 @@ $('#bodyRed').click(function() {
 
 $('#bodyOrange').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/orange.svg', function(oImg) {
-  oImg.scale(1.0).setFlipX(true);
+  oImg.scale(4).setFlipX(true);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -357,17 +354,66 @@ $('#cowboyHat').click(function() {
   })
 });
 
+$('#beard1').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/beard1.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#beard2').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/beard2.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+$('#moustache1').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/moustache2.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+$('#moustache3').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/moustache3.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+$('#moustache4').click(function() {
+  var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/moustache4.svg', function(oImg) {
+  oImg.scale(1.0).setFlipX(true);
+    canvas.add(oImg);
+  },{
+    hasControls: true,
+    hasBorders: false,
+  })
+});
+
+
 // end - add extras
 
 
-// add bodies to bkgd of canvas
+// // add bodies to bkgd of canvas
 
-function chooseBody(el) {
-  var useThisId = el.getAttribute('id');
-  var monsterBox = document.getElementsByClassName('dropzone');
-  monsterBox = monsterBox[0];
-  monsterBox.id = '';
-  monsterBox.id = useThisId;
-}
+// function chooseBody(el) {
+//   var useThisId = el.getAttribute('id');
+//   var monsterBox = document.getElementsByClassName('dropzone');
+//   monsterBox = monsterBox[0];
+//   monsterBox.id = '';
+//   monsterBox.id = useThisId;
+// }
 
-// end - adding bodies to bkgd
+// // end - adding bodies to bkgd

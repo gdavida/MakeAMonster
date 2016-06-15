@@ -1,7 +1,6 @@
 .controls {
   display: block;
-  max-width: 120px;
-  max-height: 120px;
+
   position: relative;
   background-size: contain;
   line-height: 150px;
@@ -11,16 +10,13 @@
   padding: 0 !important;
 }
 .controls p {
-  height: 150px;
-  width: 150px;
+
   background: rgba(0, 0, 0, 0.3);
   color: white;
   font-family: Verdana;
   text-align: center;
   font-size: 30px;
 }
-
-
 
 .mainContent {
   padding-top: 50px;
@@ -32,9 +28,9 @@
 }
 
 .monsterFrame{
-  min-height:00px;
-  margin-top:25px;
-  margin-bottom: 25px;
+  height:500px;
+  margin-top:35px;
+  margin-bottom: 35px;
   border: ridge #8B747A 10px
 
 }
@@ -44,6 +40,13 @@
   padding-top: 25px;
 }
 
+.canvas-container {
+    width: 450px !important;
+    height: 480px !important;
+    position: relative !important;
+    left: -20px !important;
+    border: 1px solid pink !important;
+}
 
 
 img {
@@ -68,7 +71,7 @@ li a{
 }
 
 
-.container.frame {
+.finishedMonster.frame {
 /*  background-image: url("https://s3-us-west-2.amazonaws.com/hatsforphi/toiletwpoo1.png");
 */background-position: 50%;
   background-repeat: no-repeat;
