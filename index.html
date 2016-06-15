@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html >
+  <head>
+  <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Test Fabric Monster</title>
+    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Monster w FabricJS</a>
+        </div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container mainContent">
+
+      <div class="row">
+        <h1>Make A Monster</h1>
+        <div class="col-md-6 finishedMonsterSection">
+          <div class="col-xs-12 monsterFrame">
+            <div class="container frame">
+                <canvas class="dropzone" id="c" width="500px" height="500px"></canvas>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="col-md-6 monsterBodiesAndPartsSection">
+              <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a data-toggle="tab" href="#home">Bodies</a></li>
+                <li><a data-toggle="tab" href="#menu1">Eyes</a></li>
+                <li><a data-toggle="tab" href="#menu2">Mouths</a></li>
+                <li><a data-toggle="tab" href="#menu3">Extras</a></li>
+              </ul>
+
+              <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                  <div class="bodies col-xs-12">      
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyRed" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/red.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" id="bodyOrange" onClick="chooseBody(this);" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/orange.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyYellow" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/yellow.svg">
+                    </div>  
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyGreen" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/green.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyBlue" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/blue.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyBrown" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/brown.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyTeal" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/teal.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyIndigo" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/indigo.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyTan" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/tan.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyPurple" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/purple.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyRainbow" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/rainbow.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyBlack" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/black.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyCoral" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/coral.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box show bodies" onClick="chooseBody(this);" id="bodyPeach" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/peach.svg">
+                    </div>
+                    <div class="chooseBody col-md-3">
+                      <img class="box hide bodies" onClick="chooseBody(this);" id="bodyPink" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/pink.svg">
+                    </div>
+                  </div>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                  <div class="">
+                    <div class="controls col-md-3" id="eyes1">
+                      <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes1.svg"></img>
+                    </div>
+                    <div class="controls col-md-3" id="eyes2">
+                      <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes2.svg">
+                    </div>
+                    <div class="controls col-md-3" id="eyes3">
+                      <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes3.svg">
+                    </div>
+                    <div class="controls col-md-3" id="eyes4">
+                      <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes4.svg"></img>
+                    </div>
+                    <div class="controls col-md-3" id="eyes5">
+                      <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes5.svg">
+                    </div>
+                    <div class="controls col-md-3" id="eyes6">
+                      <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterEyes/eyes6.svg">
+                    </div>
+                  </div>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                  <div class="controls col-md-3" id="mouth1">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth1.svg"></img>
+                  </div>
+                  <div class="controls col-md-3" id="mouth2">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth2.svg">
+                  </div>
+                  <div class="controls col-md-3" id="mouth3">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth3.svg">
+                  </div>
+                  <div class="controls col-md-3" id="mouth4">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth4.svg"></img>
+                  </div>
+                  <div class="controls col-md-3" id="mouth5">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth5.svg">
+                  </div>
+                  <div class="controls col-md-3" id="mouth6">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterMouths/mouth6.svg">
+                  </div>
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                  <div class="controls col-md-3" id="horn1">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/horns1.svg"></img>
+                  </div>
+                  <div class="controls col-md-3" id="horn2">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/horns2.svg">
+                  </div>
+                  <div class="controls col-md-3" id="tiara">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/tiara.png">
+                  </div>
+                  <div class="controls col-md-3" id="pinkFancyHat">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/pinkFancyHat.png">
+                  </div>
+                  <div class="controls col-md-3" id="pirateHat">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/pirateHat.svg">
+                  </div>
+                  <div class="controls col-md-3" id="cowboyHat">
+                    <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/cowboyHat.svg">
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </div><!-- /.container -->
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='http://fabricjs.com/build/files/text,gestures,easing,parser,freedrawing,interaction,serialization,image_filters,gradient,pattern,shadow,node.min.js'></script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

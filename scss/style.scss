@@ -1,0 +1,32 @@
+.controls-wrapper {
+  
+}
+.controls {
+  background-image: url('http://hee.bratsos.com/wp-content/uploads/2016/05/Modern-Sofa.png');
+  display: block;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border: 1px solid gray;
+  background-size: contain;
+  line-height: 150px;
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+  p {
+    height: 150px;
+    width:150px;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 30px;
+  }
+}
+.controls#oldCouch {
+  background-image: url('http://hee.bratsos.com/wp-content/uploads/2016/05/couch-transparent-1200x1200.png')
+}
+
+.controls#addBox {
+  background-image: url('http://hee.bratsos.com/wp-content/uploads/2016/05/frame-transparent400x400.png')
+}

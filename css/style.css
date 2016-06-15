@@ -1,0 +1,173 @@
+.controls {
+  display: block;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border: 1px solid gray;
+  background-size: contain;
+  line-height: 150px;
+  display: inline-block;
+  float: left;
+  cursor: pointer;
+}
+.controls p {
+  height: 150px;
+  width: 150px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-family: Verdana;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+.mainContent {
+  padding-top: 50px;
+  min-height: 700px;
+}
+
+.finishedMonsterSection {
+  min-height: 600px;
+}
+
+.monsterFrame{
+  min-height:00px;
+  margin-top:25px;
+  margin-bottom: 25px;
+}
+
+.monsterBodiesAndPartsSection {
+  min-height: 600px;
+  padding-top: 25px;
+}
+
+
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+* {
+  outline: 1px solid purple;
+}
+
+
+.navbar-brand {
+  font-family: 'Sigmar One', sans-serif;
+  font-size: 30px;
+}
+
+
+.container.frame {
+/*  background-image: url("https://s3-us-west-2.amazonaws.com/hatsforphi/toiletwpoo1.png");
+*/background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:500px;
+}
+
+/* MONSTER BODIES BACKGROUND */
+.chooseBody {
+  padding:0px !important;
+  outline: 2px solid pink;
+}
+
+.dropzone#bodyRed {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/red.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+.dropzone#bodyOrange {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/orange.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+.dropzone#bodyYellow {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/yellow.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+.dropzone#bodyGreen {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/green.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+.dropzone#bodyBlue {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/blue.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+.dropzone#bodyTeal {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/teal.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+.dropzone#bodyIndigo {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/indigo.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+.dropzone#bodyTan {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/tan.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+
+.dropzone#bodyPink {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/pink.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+
+.dropzone#bodyPurple {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/purple.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+
+.dropzone#bodyRainbow {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/rainbow.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+
+.dropzone#bodyBlack {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/black.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+
+.dropzone#bodyPeach {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/peach.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+
+.dropzone#bodyCoral{
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/coral.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
+
+.dropzone#bodyBrown {
+  background: url("https://s3-us-west-2.amazonaws.com/monsterimages/monsterBodies/brown.svg");
+  background-size: 60%;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+}
