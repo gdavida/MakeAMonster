@@ -10,7 +10,6 @@
   padding: 0 !important;
 }
 .controls p {
-
   background: rgba(0, 0, 0, 0.3);
   color: white;
   font-family: Verdana;
@@ -20,15 +19,14 @@
 
 .mainContent {
   padding-top: 50px;
-  min-height: 700px;
+  min-height: 500px;
 }
 
 .finishedMonsterSection {
-  min-height: 600px;
 }
 
 .monsterFrame{
-  height:500px;
+  height:420px;
   margin-top:35px;
   margin-bottom: 35px;
   border: ridge #8B747A 10px
@@ -60,7 +58,7 @@ img {
 
 .navbar-brand {
   font-family: 'Sigmar One', sans-serif;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 li a{
