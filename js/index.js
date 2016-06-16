@@ -316,7 +316,7 @@ $('#horn2').click(function() {
 
 $('#tiara').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/tiara.png', function(oImg) {
-  oImg.scale(1.0);
+  oImg.scale(0.3);
     canvas.add(oImg);
   },{
     hasControls: true,
@@ -375,7 +375,7 @@ $('#beard2').click(function() {
 });
 $('#moustache1').click(function() {
   var image1 = new fabric.Image.fromURL('https://s3-us-west-2.amazonaws.com/monsterimages/monsterHeadAccessories/moustache1.svg', function(oImg) {
-  oImg.scale(1.0);
+  oImg.scale(0.5);
     canvas.add(oImg);
   },{
     hasControls: true,
